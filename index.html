@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Parth Gathadi – Software Engineering Student & Full Stack Developer. Portfolio showcasing projects, skills, certifications and experience." />
+  <meta name="author" content="Parth Gathadi" />
+  <title>Parth Gathadi | Software Engineer & Full Stack Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Custom Cursor -->
+<div class="cursor-trail dot-0"></div>
+<div class="cursor-trail dot-1"></div>
+<div class="cursor-trail dot-2"></div>
+<div class="cursor-trail dot-3"></div>
+<div class="cursor-trail dot-4"></div>
+<div class="cursor-trail dot-5"></div>
+
+<!-- ═══════════════════ NAVBAR ═══════════════════ -->
+<header id="navbar">
+  <a href="#home" class="logo">Parth<span>.</span></a>
+  <nav id="desktopNav">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#home" class="mob-link">Home</a>
+  <a href="#about" class="mob-link">About</a>
+  <a href="#skills" class="mob-link">Skills</a>
+  <a href="#projects" class="mob-link">Projects</a>
+  <a href="#certifications" class="mob-link">Certifications</a>
+  <a href="#achievements" class="mob-link">Achievements</a>
+  <a href="#contact" class="mob-link">Contact</a>
+</div>
+<div class="mob-overlay" id="mobOverlay"></div>
+
+
+<!-- ═══════════════════ HERO ═══════════════════ -->
+<section id="home" class="hero">
+  <div class="hero-img-wrap">
+    <div class="hero-img-card">
+      <img src="assets/images/Parth.jpeg" alt="Parth Gathadi" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+      <div class="hero-photo-placeholder" style="display:none"><i class='bx bx-user'></i></div>
+    </div>
+  </div>
+  <div class="hero-content">
+    <h1>Hi, I'm <span>Parth Gathadi</span></h1>
+    <p class="hero-role"><span id="typed"></span></p>
+    <p class="hero-desc">
+      3rd-year Software Engineering student at MIT Academy of Engineering, Pune.
+      Passionate about building full-stack web applications, exploring AI &amp;
+      Cybersecurity, and solving real-world problems through clean, efficient code.
+    </p>
+    <div class="hero-btns">
+      <a href="#projects" class="btn btn-primary"><i class='bx bx-code-block'></i> View Projects</a>
+      <a href="public/resume/Resume.png" target="_blank" rel="noopener" class="btn btn-outline"><i class='bx bx-file'></i> View Resume</a>
+      <a href="public/resume/Parth_CV.pdf" download="Parth_CV.pdf" class="btn btn-ghost"><i class='bx bx-download'></i> Download CV</a>
+    </div>
+    <div class="hero-socials">
+      <a href="https://github.com/Part2006" target="_blank" rel="noopener" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+      <a href="https://www.linkedin.com/in/parth-gathadi-516a7233a" target="_blank" rel="noopener" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+      <a href="mailto:gathadiparth@gmail.com" aria-label="Email"><i class='bx bx-envelope'></i></a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════ STATS ═══════════════════ -->
+<div class="stats-bar">
+  <div class="stat"><strong>5+</strong><span>Projects</span></div>
+  <div class="stat-sep"></div>
+  <div class="stat"><strong>8+</strong><span>Certificates</span></div>
+  <div class="stat-sep"></div>
+  <div class="stat"><strong>3+</strong><span>Hackathons</span></div>
+  <div class="stat-sep"></div>
+  <div class="stat"><strong>2028</strong><span>Graduation</span></div>
+</div>
+
+
+<!-- ═══════════════════ ABOUT ═══════════════════ -->
+<section id="about">
+  <div class="sec-header centered">
+    <p class="sec-label">Get to know me</p>
+    <h2>About <em>Me</em></h2>
+  </div>
+  <div class="about-grid">
+    <div class="about-text-col">
+      <h3>Aspiring Software Engineer</h3>
+      <p>I'm a Software Engineering student passionate about Full Stack Development, Artificial Intelligence, Flutter and Python Development. I enjoy transforming ideas into practical software solutions that solve real problems. Apart from academics, I actively participate in hackathons, internships and continuously learn modern technologies to improve my development skills.</p>
+      <div class="about-pills">
+        <span><i class='bx bx-code-alt'></i> Full Stack Dev</span>
+        <span><i class='bx bx-brain'></i> AI / ML</span>
+        <span><i class='bx bx-shield-alt-2'></i> Cybersecurity</span>
+        <span><i class='bx bx-trophy'></i> Hackathons</span>
+      </div>
+      <div class="about-actions">
+        <a href="#contact" class="btn btn-primary">Let's Connect</a>
+        <a href="#projects" class="btn btn-outline">View My Work</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════ SKILLS ═══════════════════ -->
+<section id="skills" class="sec-alt">
+  <div class="sec-header centered">
+    <p class="sec-label">What I work with</p>
+    <h2>Skills &amp; <em>Technologies</em></h2>
+  </div>
+  <div class="skills-grid" id="skillsGrid"></div>
+</section>
+
+
+<!-- ═══════════════════ PROJECTS ═══════════════════ -->
+<section id="projects">
+  <div class="sec-header centered">
+    <p class="sec-label">What I've built</p>
+    <h2>My <em>Projects</em></h2>
+    <p class="sec-sub">A selection of full-stack applications and engineering projects.</p>
+  </div>
+  <div class="projects-grid" id="projectsGrid"></div>
+</section>
+
+
+<!-- ═══════════════════ CERTIFICATIONS ═══════════════════ -->
+<section id="certifications" class="sec-alt">
+  <div class="sec-header centered">
+    <p class="sec-label">Verified credentials</p>
+    <h2>My <em>Certifications</em></h2>
+    <p class="sec-sub">Industry-recognized certifications in programming, AI, and cybersecurity.</p>
+  </div>
+  <div id="certsContainer"></div>
+</section>
+
+
+<!-- ═══════════════════ EDUCATION ═══════════════════ -->
+<section id="education">
+  <div class="sec-header centered">
+    <p class="sec-label">Academic background</p>
+    <h2>My <em>Education</em></h2>
+  </div>
+  <div class="timeline" id="educationTimeline"></div>
+</section>
+
+
+
+
+<!-- ═══════════════════ ACHIEVEMENTS ═══════════════════ -->
+<section id="achievements">
+  <div class="sec-header centered">
+    <p class="sec-label">Milestones</p>
+    <h2>My <em>Achievements</em></h2>
+    <p class="sec-sub">Hackathons, competitions, and recognition.</p>
+  </div>
+  <div class="achievements-grid" id="achievementsGrid"></div>
+</section>
+
+
+<!-- ═══════════════════ CONTACT ═══════════════════ -->
+<section id="contact" class="sec-alt">
+  <div class="sec-header centered">
+    <p class="sec-label">Get in touch</p>
+    <h2>Let's <em>Connect</em></h2>
+    <p class="sec-sub">Open to internship opportunities, collaborations, and exciting projects.</p>
+  </div>
+  <div class="contact-grid">
+    <div class="contact-info">
+      <h3>Let's Talk</h3>
+      <p>Feel free to reach out — I'm always happy to discuss new opportunities or just have a conversation about tech.</p>
+      <div class="contact-item">
+        <div class="c-icon"><i class='bx bx-envelope'></i></div>
+        <div>
+          <strong>Email</strong>
+          <!-- PASTE YOUR EMAIL -->
+          <a href="mailto:gathadiparth@gmail.com">gathadiparth@gmail.com</a>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="c-icon"><i class='bx bxl-linkedin'></i></div>
+        <div>
+          <strong>LinkedIn</strong>
+          <a href="https://www.linkedin.com/in/parth-gathadi-516a7233a" target="_blank" rel="noopener">linkedin.com/in/Parth Gathadi</a>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="c-icon"><i class='bx bxl-github'></i></div>
+        <div>
+          <strong>GitHub</strong>
+          <a href="https://github.com/Part2006" target="_blank" rel="noopener">Part2006</a>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="c-icon"><i class='bx bx-phone'></i></div>
+        <div>
+          <strong>Phone</strong>
+          <!-- PASTE YOUR MOBILE NUMBER -->
+          <a href="tel:9922464353">9922464353</a>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="c-icon"><i class='bx bx-map'></i></div>
+        <div>
+          <strong>Location</strong>
+          <span>Pune, Maharashtra, India</span>
+        </div>
+      </div>
+      <div class="resume-btns">
+        <a href="public/resume/Resume.png" target="_blank" rel="noopener" class="btn btn-primary"><i class='bx bx-file'></i> View Resume</a>
+        <a href="public/resume/Resume.png" download="Parth-Gathadi-Resume.pdf" class="btn btn-outline"><i class='bx bx-download'></i> Download Resume</a>
+      </div>
+    </div>
+
+    <form class="contact-form" id="contactForm" novalidate>
+      <h3>Send a Message</h3>
+      <!--
+        EMAIL SERVICE:
+        Option 1 – Formspree (easiest, free):
+          Add  action="https://formspree.io/f/YOUR_FORM_ID"  method="POST"  to the <form> tag above.
+          Remove the JS submit handler in script.js.
+        Option 2 – EmailJS:
+          Follow https://www.emailjs.com/ and replace the submit handler in script.js.
+      -->
+      <div class="form-row">
+        <div class="form-group">
+          <label for="fname">Full Name *</label>
+          <input type="text" id="fname" name="name" placeholder="Your full name" required />
+          <span class="ferr" id="fnameErr"></span>
+        </div>
+        <div class="form-group">
+          <label for="femail">Email *</label>
+          <input type="email" id="femail" name="email" placeholder="your@email.com" required />
+          <span class="ferr" id="femailErr"></span>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="fsubject">Subject</label>
+        <input type="text" id="fsubject" name="subject" placeholder="What's this about?" />
+      </div>
+      <div class="form-group">
+        <label for="fmsg">Message *</label>
+        <textarea id="fmsg" name="message" rows="6" placeholder="Write your message..." required></textarea>
+        <span class="ferr" id="fmsgErr"></span>
+      </div>
+      <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+        <i class='bx bx-send'></i> <span id="submitTxt">Send Message</span>
+      </button>
+      <p class="form-status" id="formStatus"></p>
+    </form>
+  </div>
+</section>
+
+
+<!-- ═══════════════════ FOOTER ═══════════════════ -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="logo">Parth<span>.</span></span>
+      <p>Software Engineering Student · Full Stack Developer · MIT AOE, Pune</p>
+    </div>
+    <nav class="footer-nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="footer-socials">
+      <a href="https://github.com/Part2006" target="_blank" rel="noopener" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+      <a href="https://www.linkedin.com/in/parth-gathadi-516a7233a" target="_blank" rel="noopener" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+      <a href="mailto:PASTE_YOUR_EMAIL" aria-label="Email"><i class='bx bx-envelope'></i></a>
+    </div>
+  </div>
+  <p class="footer-copy">© 2025 Parth Gathadi. All rights reserved.</p>
+</footer>
+
+
+<!-- Scroll to top -->
+<a href="#home" class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+  <i class='bx bx-chevron-up'></i>
+</a>
+
+
+<!-- PDF Modal -->
+<div id="pdfModal" hidden role="dialog" aria-modal="true" aria-labelledby="pdfModalTitle">
+  <div id="pdfBackdrop"></div>
+  <div id="pdfBox">
+    <div id="pdfBar">
+      <span id="pdfModalTitle">Document</span>
+      <div id="pdfBarActions">
+        <a id="pdfDl" title="Download"><i class='bx bx-download'></i> <span>Download</span></a>
+        <button id="pdfClose" aria-label="Close"><i class='bx bx-x'></i></button>
+      </div>
+    </div>
+    <div id="pdfBody">
+      <div id="pdfSpin"><div class="spin"></div><p>Loading…</p></div>
+      <div id="pdfErr" hidden>
+        <i class='bx bx-error-circle'></i>
+        <p>Could not load document.</p>
+        <a id="pdfFallback" target="_blank" rel="noopener">Open in new tab ↗</a>
+      </div>
+      <img id="pdfImg" hidden alt="Certificate" />
+      <iframe id="pdfFrame" hidden title="Document viewer"></iframe>
+    </div>
+  </div>
+</div>
+
+
+<!-- Data files — must load before script.js -->
+<script src="data/skills.js"></script>
+<script src="data/projects.js"></script>
+<script src="data/certifications.js"></script>
+<script src="data/education.js"></script>
+
+<!-- Typed.js -->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
